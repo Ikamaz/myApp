@@ -7,7 +7,7 @@ const app = () => {
   return (
     <View style={styles.container}>
       <ImageBackground source={iconImg} resizeMode="cover" style={styles.image}>
-        <Text style={styles.title}>SHONIAS YVERI</Text>
+        <Text style={styles.title}>Hello World</Text>
         <Link href="/contact" style={{marginHorizontal: 'auto'}} asChild>
           <Pressable style={styles.button}>
             <Text style={styles.buttonText}>Contact Us</Text>
