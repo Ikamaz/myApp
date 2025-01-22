@@ -1,7 +1,7 @@
 import { Tabs } from 'expo-router';
 import React from 'react';
 import { Platform } from 'react-native';
-
+import Ionicons from '@expo/vector-icons/Ionicons';
 import { HapticTab } from '@/components/HapticTab';
 import { IconSymbol } from '@/components/ui/IconSymbol';
 import TabBarBackground from '@/components/ui/TabBarBackground';
@@ -29,7 +29,7 @@ export default function TabLayout() {
         name="contact"
         options={{
           title: 'Contact',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
+          tabBarIcon: ({ color }) => <Ionicons name="people-circle" size={24} color={color} />,
         }}
       />
     </Tabs>
